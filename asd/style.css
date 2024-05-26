@@ -1,0 +1,57 @@
+ .apartado {
+    height: 100vh;
+    border: 1px ridge black;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    height: 4vh;
+    margin-right: 3px;
+    border-radius: 100%;
+    border: 1px solid black;
+    border-top-left-radius: 0;
+    padding: 25px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+div:active{
+    color: rgb(0, 255, 0);
+    letter-spacing: 5rem;
+    background-color: black;
+    width: 50%;
+}
+
+a:hover {background-color: cadetblue;}
+
+.content {
+    position: relative;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    top: 50%;
+    left: 50%;
+    color: black;
+    text-decoration: green;
+}
+
+.contenidopai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    top: 50%; /* Cambiado de 30% a 50% para centrar verticalmente */
+    left: 50%;
+    list-style-type: georgian;
+}
